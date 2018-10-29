@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>services</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="webtech.css">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* Style the header */
+header {
+    background-color: #666;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+/* Style the navigation menu */
+
+  h2 {
+    color: rgb(240, 240, 240);
+    text-align: center;
+    background-color:rgb(180, 180, 180);
+    padding: 20px 16px;
+}
+h3{
+      text-align: right;
+      color: #cc6600;
+      font-size: 16px;
+      text-decoration: white;
+     }
+
+/*submenu*/
+.navbar img.logo {
+  font-size: 20px;
+  font-weight: bold;
+  float: left;
+  background-color: #666;
+}
+.navbar {
+    overflow: hidden;
+    background-color: none;
+}
+
+.navbar a {
+    float: right;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.subnav {
+    float: left;
+    overflow: hidden;
+}
+
+.subnav .subnavbtn {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+
+
+/* Darker background on mouse-over */
+
+.navbar a:hover, .subnav:hover, .subnavbtn {
+    background-color: #00cccc;
+}
+
+.subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: #7a7a52;
+    width: 100%;
+    z-index: 1;
+}
+
+.subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+}
+
+.subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+}
+
+.subnav:hover .subnav-content {
+    display: block;
+}
+/*done.....*/
+    .content {
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+    background-color: LightGray;
+}
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+    background-color: LightGray;
+}
+/* Add styles to the form container */
+.content {
+margin: auto;
+background: white;
+padding: 10px;
+background-color: LightGray;
+
+}
+/* Fallback color */
+   /* Black background with 0.5 opacity */
+
+
+
+
+   footer {
+    background-color: #666;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.footer p {
+    flex: 1;
+    margin: 0;
+    bottom: 0;
+}
+
+footer ul {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    margin: 2;
+    padding-left: 0;
+    list-style: none;
+    color: SlateBlue;
+
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: underline;
+}
+/* style for thumbnails*/
+/*.col {
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+    margin-bottom: 16x;
+  }
+  .row1:after {
+      content: "";
+      display: table;
+      clear: both;
+
+  }
+  */
+
+
+
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.btn-primary{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 12px 24px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    width: 30%;
+    border-radius: 5px;
+  }
+
+  .btn-primary:hover {
+    background-color: #555;
+  }
+
+
+</style>
+</head>
+<header>
+
+           <h3> Phone Number: 239-333-3333</h3>
+
+           <div class="navbar">
+
+            <img src="rightlogo.png" class="logo" alt="JLmax Web_tech Solutions">
+  <a href="#home">Contact</a>
+  <div class="subnav">
+
+    <button class="subnavbtn">About Us<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#company">Company</a>
+      <a href="#team">Team</a>
+      <a href="#careers">Careers</a>
+    </div>
+  </div>
+  <div class="subnav">
+    <button class="subnavbtn">Services <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#bring">Web Development</a>
+      <a href="#deliver">Web Design</a>
+      <a href="#package">Cloud Services</a>
+      <a href="#package">Site repair and maintenance</a>
+      <a href="#package">Custom site design</a>
+    </div>
+  </div>
+  <div class="subnav">
+    <button class="subnavbtn">Partners <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#link1">Link 1</a>
+      <a href="#link2">Link 2</a>
+      <a href="#link3">Link 3</a>
+      <a href="#link4">Link 4</a>
+    </div>
+  </div>
+  <a href="#home">Home</a>
+</div>
+  </header>
+<body>
+ <div class="container">
+      <div class="column" style="background-color:LightGray;">
+      <div class="column">
+       <div class="card">
+       <img src="picture.jgp.jpg" alt="webtechsolution" width="320" height="200">
+       <img src="picture.jgp.jpg" alt="webtechsolution" width="320" height="200">
+       <img src="picture.jgp.jpg" alt="webtechsolution" width="320" height="200">
+        <div class="contain">
+        <h4><center>Web Development</center></h4>
+        <p>   Creating an effective web site which allow users to find
+          items in one click not as mucch difficult as someone might think. </p>
+        <p><a href="#" class="btn-primary" role="button">Learn More</a> </p>
+        </div>
+        </div>
+      </div>
+   </div>
+   <div class="column">
+         <div class="column">
+        <div class="card">
+        <img src="picture.jgp.jpg" alt="webtechsolution" width="320" height="200">
+        <img src="picture.jgp.jpg" alt="webtechsolution" width="320" height="200">
+        <img src="picture.jgp.jpg" alt="webtechsolution" width="320" height="200">
+         <div class="contain">
+         <h4><center>Web Development</center></h4>
+         <p>Relax while we're making your website looks great and professional.
+          You can count on us for a website where users can choose mmmmmmmmmmmm
+          mmmmmmmmmmmmmmmmmmmmmmmmmm.can mmmmmm
+           mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+         </p>
+          <p><a href="#" class="btn-primary" role="button">Learn More</a> </p>
+         </div>
+        </div>
+        </div>
+   </div>
+</div>
+
+    <footer>
+        <ul>
+        <li><a href="#home">Terms</a></li>
+        <li><a href="#home">Contact us</a></li>
+        <li><a href="#home">About us</a></li>
+       </ul>
+         <p> 2018 Copyright &copy; www.jlmaxwts.com </p>
+    </footer>
+
+</body>
+</html>
